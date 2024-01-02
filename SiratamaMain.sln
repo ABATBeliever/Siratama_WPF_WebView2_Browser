@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Siratama WPF", "Siratama WPF.csproj", "{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Experimental APIs|Any CPU = Debug Experimental APIs|Any CPU
+		Debug Experimental APIs|x64 = Debug Experimental APIs|x64
+		Debug Stable APIs|Any CPU = Debug Stable APIs|Any CPU
+		Debug Stable APIs|x64 = Debug Stable APIs|x64
+		Release Experimental APIs|Any CPU = Release Experimental APIs|Any CPU
+		Release Experimental APIs|x64 = Release Experimental APIs|x64
+		Release Stable APIs|Any CPU = Release Stable APIs|Any CPU
+		Release Stable APIs|x64 = Release Stable APIs|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Experimental APIs|Any CPU.ActiveCfg = Debug Experimental APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Experimental APIs|Any CPU.Build.0 = Debug Experimental APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Experimental APIs|x64.ActiveCfg = Debug Experimental APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Experimental APIs|x64.Build.0 = Debug Experimental APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Stable APIs|Any CPU.ActiveCfg = Debug Stable APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Stable APIs|Any CPU.Build.0 = Debug Stable APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Stable APIs|x64.ActiveCfg = Debug Stable APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Debug Stable APIs|x64.Build.0 = Debug Stable APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Experimental APIs|Any CPU.ActiveCfg = Release Experimental APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Experimental APIs|Any CPU.Build.0 = Release Experimental APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Experimental APIs|x64.ActiveCfg = Release Experimental APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Experimental APIs|x64.Build.0 = Release Experimental APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Stable APIs|Any CPU.ActiveCfg = Release Stable APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Stable APIs|Any CPU.Build.0 = Release Stable APIs|Any CPU
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Stable APIs|x64.ActiveCfg = Release Stable APIs|x64
+		{EE405166-276B-486B-A7C6-D3E5BE2BBB6C}.Release Stable APIs|x64.Build.0 = Release Stable APIs|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D67C87AC-0755-417B-837B-CF60986F29DF}
+	EndGlobalSection
+EndGlobal
