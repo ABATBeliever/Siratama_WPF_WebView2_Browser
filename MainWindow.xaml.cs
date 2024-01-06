@@ -1968,8 +1968,18 @@ namespace WebView2WpfBrowser
 
         private string GetStartPageUri(CoreWebView2 webView2)
         {
-            string uri = "https://www.google.com";
-            return uri;
+            string uri = "https://ThisIsNotWebSite.example.include/AppStartPage.html";
+            if (webView2 == null)
+            {
+                return uri;
+            }
+            string sdkBuildVersion = GetSdkBuildVersion(),
+                   runtimeVersion = GetRuntimeVersion(webView2),
+                   appPath = GetAppPath(),
+                   runtimePath = GetRuntimePath(webView2);
+            string newUri = $"{uri}?sdkBuild={sdkBuildVersion}&runtimeVersion={runtimeVersion}" +
+                $"&appPath={appPath}&runtimePath={runtimePath}";
+            return newUri;
         }
 
         Action OnWebViewFirstInitialized;
@@ -1979,7 +1989,7 @@ namespace WebView2WpfBrowser
             if (e.IsSuccess)
             {
                 // Setup host resource mapping for local files
-                webView.CoreWebView2.SetVirtualHostNameToFolderMapping("appassets.example", "assets", CoreWebView2HostResourceAccessKind.DenyCors);
+                webView.CoreWebView2.SetVirtualHostNameToFolderMapping("ThisIsNotWebSite.example.include", "assets", CoreWebView2HostResourceAccessKind.DenyCors);
                 // Set StartPage Uri, unless this WebView will be used for a new window request
                 if (!_isNewWindowRequest)
                 {

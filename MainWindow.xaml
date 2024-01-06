@@ -11,7 +11,7 @@ found in the LICENSE file.
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:local="clr-namespace:WebView2WpfBrowser"
         x:Name="MyWindow"
-        Title="しらたまWPFブラウザ by ABATBeliever"
+        Title="しらたまWPFブラウザ v2"
         Height="450"
         Width="800"
     >

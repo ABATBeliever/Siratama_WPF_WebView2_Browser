@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AfKJfYDrLyv7zcSWwgBemN0zHG7W3cW32j01ucaVClhhj7ADKRMD/knzT7KFoPbKkRYTr0lgnfE3jo+cD+OZkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abatb\\OneDrive\\ドキュメント\\VSProjects\\Siratama_WPF_WebView2_Browser-main\\Siratama WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abatb\\.nuget\\packages\\microsoft.web.webview2\\1.0.2194-prerelease\\microsoft.web.webview2.1.0.2194-prerelease.nupkg.sha512",
+    "C:\\Users\\abatb\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
